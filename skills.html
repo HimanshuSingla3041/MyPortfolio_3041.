@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f9fbe7, #fffde7);
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            color: #33691e;
+        }
+
+        .skills-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .skills-container ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-container li {
+            font-size: 18px;
+            margin: 12px 0;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .skills-container img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .back-home {
+            display: block;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .back-home a {
+            text-decoration: none;
+            color: white;
+            background: #33691e;
+            padding: 12px 25px;
+            border-radius: 8px;
+            transition: background 0.3s;
+            font-size: 16px;
+        }
+
+        .back-home a:hover {
+            background: #558b2f;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Skills</h1>
+
+    <div class="skills-container">
+        <ul>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"> Java Programming</li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png" alt="ALP"> Assembly Language Programming (ALP)</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"> MySQL</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle"> Oracle</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"> C (Basic)</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"> HTML (Basic)</li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/942/942799.png" alt="OCR"> OCR Tools (Tesseract in Java)</li>
+        </ul>
+    </div>
+
+    <div class="back-home">
+        <!-- Agar index.html aur skills.html same folder me hain to neeche wali line sahi hai -->
+        <a href="homepage.html">⬅ Back to Home</a>
+        
+        <!-- Agar skills.html subfolder me hai aur index.html parent folder me hai to ye use karo -->
+        <!-- <a href="../index.html">⬅ Back to Home</a> -->
+    </div>
+</body>
+</html>
