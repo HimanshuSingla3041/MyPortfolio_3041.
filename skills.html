@@ -11,6 +11,7 @@
             padding: 0;
             background: linear-gradient(to right, #f9fbe7, #fffde7);
             color: #333;
+            line-height: 1.6;
         }
 
         h1 {
@@ -46,24 +47,29 @@
             height: 30px;
         }
 
+        /* Back to Home button styling (consistent with other pages) */
         .back-home {
             display: block;
-            margin: 30px auto;
             text-align: center;
+            margin: 30px auto 10px;
         }
 
         .back-home a {
             text-decoration: none;
             color: white;
-            background: #33691e;
+            font-weight: bold;
             padding: 12px 25px;
-            border-radius: 8px;
-            transition: background 0.3s;
-            font-size: 16px;
+            border-radius: 30px;
+            background: linear-gradient(to right, #1e90ff, #00c6ff);
+            transition: all 0.3s ease;
+            width: fit-content;
+            display: inline-block;
         }
 
         .back-home a:hover {
-            background: #558b2f;
+            background: linear-gradient(to right, #00c6ff, #1e90ff);
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
     </style>
 </head>
@@ -83,11 +89,7 @@
     </div>
 
     <div class="back-home">
-        <!-- Agar index.html aur skills.html same folder me hain to neeche wali line sahi hai -->
         <a href="homepage.html">⬅ Back to Home</a>
-        
-        <!-- Agar skills.html subfolder me hai aur index.html parent folder me hai to ye use karo -->
-        <!-- <a href="../index.html">⬅ Back to Home</a> -->
     </div>
 </body>
 </html>
